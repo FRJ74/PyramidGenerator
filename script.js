@@ -1,8 +1,10 @@
 /* Declare & initialize variables*/
 
-const character = "Hello";
+const character = "#";
 const count = 8;
-const rows = ["Naomi", "Quincy", "CamperChan"];
-rows.push("freeCodeCamp");
+const rows = [];
+
+for (let i = 0; i < count; i=i + 1) {};
+
 
 
