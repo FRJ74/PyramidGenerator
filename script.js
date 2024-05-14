@@ -6,6 +6,7 @@ const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
     rows.push(character);
+    character.repeat(i);
 };
 
 let result = "";
