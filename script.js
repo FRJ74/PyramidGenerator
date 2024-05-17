@@ -15,7 +15,7 @@ for (const row of rows) {
     
 };
 
-function padRow(name) {
+function padRow() {
     const test = "Testing";
     return test;
 };
