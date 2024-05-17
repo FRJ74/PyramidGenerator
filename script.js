@@ -15,11 +15,10 @@ for (const row of rows) {
     
 };
 
-function padRow() {
+function padRow(rowNumber, rowCount) {
     
 };
 
-const call = padRow();
-console.log(call);
+
 
 
