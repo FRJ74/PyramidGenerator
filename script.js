@@ -16,7 +16,7 @@ for (const row of rows) {
 };
 
 function padRow(name) {
-    return name;
+    return character + name;
 };
 
 const call = padRow();
