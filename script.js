@@ -5,8 +5,7 @@ const count = 8;
 const rows = [];
 
 for (let i = 0; i < count; i = i + 1) {
-    rows.push(character);
-    character.repeat(i);
+    rows.push(character.repeat(i + 1));
 };
 
 let result = "";
