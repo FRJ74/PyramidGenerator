@@ -14,12 +14,10 @@ let result = "";
 let continueLoop = false;
 let done = 0;
 
-while (continueLoop) {
+while (done !== count) {
   done++;
   rows.push(padRow(done, count));
-  if (done === count) {
-
-  }
+  
 };
 
 for (const row of rows) {
