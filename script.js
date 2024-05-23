@@ -11,11 +11,9 @@ const rows = [];
 };*/
 
 let result = "";
-let continueLoop = false;
 let done = 0;
 
-while (done !== count) {
-  done++;
+while (rows.length <= count) {
   rows.push(padRow(done, count));
   
 };
