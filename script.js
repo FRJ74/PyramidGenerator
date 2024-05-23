@@ -4,11 +4,19 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-for (let i = 1; i < count; i ++) {
+// TODO: Use a different kind of loop.
+
+/*for (let i = 1; i <= count; i ++) {
     rows.push(padRow(i, count));
-};
+};*/
 
 let result = "";
+let continueLoop = false;
+let done = 0;
+
+while (continueLoop) {
+  done++;
+};
 
 for (const row of rows) {
     result = result + "\n" + row;
