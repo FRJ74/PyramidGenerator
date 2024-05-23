@@ -4,7 +4,7 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-for (let i = 0; i < count; i = i + 1) {
+for (let i = 0; i < count; i += 1) {
     rows.push(padRow(i+1, count));
 };
 
@@ -16,7 +16,7 @@ for (const row of rows) {
 };
 
 function padRow(rowNumber, rowCount) {
-    return character.repeat(rowNumber);
+    return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
 };
 
 
