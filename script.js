@@ -20,9 +20,12 @@ function padRow(rowNumber, rowCount) {
   
 }; */
 
-for (let i = count; i > 0; i--) {
+/*for (let i = count; i > 0; i--) {
     rows.push(padRow(i, count));
-}
+}*/
+
+const numbers = [1,2,3];
+const unshifted = numbers.unshift(5);
 
 let result = "";
 
