@@ -20,8 +20,8 @@ function padRow(rowNumber, rowCount) {
   
 }; */
 
-for (let i = count; i > 0; i = i - 1) {
-
+for (let i = count; i > 0; i--) {
+    rows.push(padRow(i, count));
 }
 
 let result = "";
