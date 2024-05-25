@@ -12,7 +12,12 @@ function padRow(rowNumber, rowCount) {
 // TODO: Use a different kind of loop.
 
 for (let i = 1; i <= count; i ++) {
-    rows.unshift(padRow(i, count));
+    if (inverted) {
+        rows.unshift(padRow(i, count));
+    } else {
+        
+    }
+    
 };
 
 
