@@ -26,6 +26,7 @@ function padRow(rowNumber, rowCount) {
 
 const numbers = [1,2,3];
 const unshifted = numbers.unshift(5);
+const shifted = numbers.shift();
 
 let result = "";
 
